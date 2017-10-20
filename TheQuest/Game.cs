@@ -12,6 +12,7 @@ namespace TheQuest
         private int _level = 0;
         private Rectangle _boundaries;
         private bool _isUsedBluePotion;
+        private bool _isUsedRedPotion;
 
         public IEnumerable<Enemy> Enemies { get; private set; }
         public Weapon WeaponInRoom { get; private set; }
@@ -26,7 +27,6 @@ namespace TheQuest
         public int Level { get { return _level; } }
         public IEnumerable<string> PlayerWeapons { get { return _player.Weapons; } }
         public Rectangle Boundaries { get { return _boundaries; } }
-        public bool IsUsedBluePotion { get { return _isUsedBluePotion; } }
 
         public Game(Rectangle boundaries)
         {
@@ -41,6 +41,10 @@ namespace TheQuest
             if (hasBlueToRemove)
             {
                 _isUsedBluePotion = true;
+            }
+            else
+            {
+                _isUsedRedPotion = true;
             }
         }
 
@@ -121,10 +125,14 @@ namespace TheQuest
                     if (CheckPlayerInventory("Bow"))
                     {
                         if (_isUsedBluePotion)
+                        {
                             WeaponInRoom = new BluePotion(this, GetRandomLocation(random));
-                    }     
+                        }                           
+                    }
                     else
+                    {
                         WeaponInRoom = new Bow(this, GetRandomLocation(random));
+                    }         
                     break;
                 case 5:
                     Enemies = new List<Enemy>()
@@ -151,7 +159,10 @@ namespace TheQuest
                     };
                     if (CheckPlayerInventory("Mace"))
                     {
-                        WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+                        if (_isUsedRedPotion)
+                        {
+                            WeaponInRoom = new RedPotion(this, GetRandomLocation(random));
+                        }               
                     }
                     else
                     {
