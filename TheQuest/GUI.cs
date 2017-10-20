@@ -7,7 +7,7 @@ namespace TheQuest
     public partial class GUI : Form
     {
         private Game _game;
-        private Random _random = new Random();
+        private static readonly Random _random = new Random();
 
         public GUI()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheQuest
 {
-    interface IPotion
+    internal interface IPotion
     {
         bool Used { get; }
     }

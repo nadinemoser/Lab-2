@@ -7,3 +7,12 @@ C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\bi
 C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\bin\Debug\TheQuest.pdb
 C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.exe
 C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.pdb
+C:\_projects\TheQuest\Lab-2\TheQuest\bin\Debug\TheQuest.exe.config
+C:\_projects\TheQuest\Lab-2\TheQuest\bin\Debug\TheQuest.exe
+C:\_projects\TheQuest\Lab-2\TheQuest\bin\Debug\TheQuest.pdb
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.csprojResolveAssemblyReference.cache
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.GUI.resources
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.Properties.Resources.resources
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.csproj.GenerateResource.Cache
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.exe
+C:\_projects\TheQuest\Lab-2\TheQuest\obj\Debug\TheQuest.pdb

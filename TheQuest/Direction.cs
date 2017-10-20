@@ -1,6 +1,6 @@
 ﻿namespace TheQuest
 {
-    enum Direction
+    internal enum Direction
     {
         Up,
         Right,
