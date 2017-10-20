@@ -1,0 +1,9 @@
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.csprojResolveAssemblyReference.cache
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.GUI.resources
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.Properties.Resources.resources
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.csproj.GenerateResource.Cache
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\bin\Debug\TheQuest.exe.config
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\bin\Debug\TheQuest.exe
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\bin\Debug\TheQuest.pdb
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.exe
+C:\Users\nadine.moser\documents\visual studio 2017\Projects\TheQuest\TheQuest\obj\Debug\TheQuest.pdb
